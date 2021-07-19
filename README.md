@@ -19,6 +19,9 @@ horizotally, vertically and diagonally adjacent cells. The outcome of an interac
 
 Interestingly, thses rules for the automation **express the rules applicable in the real life** :
 
-1. A live cell with neighbours less than 2 or more than 3, dies, by *isolation* and *overpopulation* respectively.
-2. A live cell with 2-3 neighbous would survive as it is in a *stabilized colony*
-3. A dead cell with exactly 3 neighbours would become alive by *reproduction*
+1. A live cell with neighbours less than 2 or more than 3, dies, by ***isolation*** and ***overpopulation*** respectively.
+2. A live cell with 2-3 neighbous would survive as it is in a ***stabilized colony***
+3. A dead cell with exactly 3 neighbours would become alive by ***reproduction***
+
+The first generation(t=0) goes on creating different generations as time passes and these new generations are pure functions of the preceding one, as identical patterns
+are produced from identical parent patterns
