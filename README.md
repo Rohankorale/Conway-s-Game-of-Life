@@ -24,4 +24,10 @@ Interestingly, thses rules for the automation **express the rules applicable in 
 3. A dead cell with exactly 3 neighbours would become alive by ***reproduction***
 
 The first generation(t=0) goes on creating different generations as time passes and these new generations are pure functions of the preceding one, as identical patterns
-are produced from identical parent patterns
+are produced from identical parent patterns. 
+
+### Types
+There are three types of patterns besed on their generations :
+1. **Still Lifes** :  Remain unchanged untill disturbed by another moving colony
+2. **Oscillators** :  Produce same generations periodically.
+3. **Space Ships** :  Mobile patterns which transmit themselves through the grid
